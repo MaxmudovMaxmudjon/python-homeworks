@@ -1,0 +1,11 @@
+class user:
+    """Foydalanuvchi nomli klass yaratamiz"""
+    def __init__(self,ism,familiya,instanik,email):
+        self.ism = ism
+        self.familiya = familiya
+        self.instanik = instanik
+        self.email = email
+    def malumot(self):
+        return f"Foydalanuvchi {self.ism},familiyasi {self.familiya}, instanik {self.instanik},email {self.email}"
+user1 = user("Maxmudjon","Maxmudov","makhmudov.10_","maxmudovmaxmudjon744@gmail.com")
+print(user1.malumot())
